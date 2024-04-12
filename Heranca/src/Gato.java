@@ -8,6 +8,11 @@ public class Gato extends Animal{
         this.caçando = caçando;
     }
 
+    @Override
+    public void barulho(){
+        System.out.println("Miau...");
+    }
+
     public Boolean getCaçando() {
         return caçando;
     }
