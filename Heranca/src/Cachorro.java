@@ -12,6 +12,11 @@ public class Cachorro extends Animal{
         this.porte = porte;
     }
 
+    @Override
+    public void barulho(){
+        System.out.println("Au au...");
+    }
+
     public String getRaca() {
         return raca;
     }
