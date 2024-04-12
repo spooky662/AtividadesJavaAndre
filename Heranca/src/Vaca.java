@@ -8,6 +8,11 @@ public class Vaca extends Animal{
         this.manchas = manchas;
     }
 
+    @Override
+    public void barulho(){
+        System.out.println("Muuuu...");
+    }
+
     public String getDieta() {
         return dieta;
     }
