@@ -1,11 +1,11 @@
-public class Moto extends Veiculo{
+public class Moto extends VeiculoTerrestre{
     int cilindradas;
     String tipoCombustivel;
     String tipoFreio;
 
     public Moto(String modelo, int ano, String cor, boolean ligado,
-                int cilindradas, String tipoCombustivel, String tipoFreio) {
-        super(modelo, ano, cor, ligado);
+                int numeroRodas, int cilindradas, String tipoCombustivel, String tipoFreio) {
+        super(modelo, ano, cor, ligado, numeroRodas);
         this.cilindradas = cilindradas;
         this.tipoCombustivel = tipoCombustivel;
         this.tipoFreio = tipoFreio;
