@@ -1,11 +1,11 @@
-public class Onibus extends Veiculo{
+public class Onibus extends VeiculoTerrestre{
     int capacidadePassageiros;
     int portasAcesso;
     int numeroParadas;
 
     public Onibus(String modelo, int ano, String cor, boolean ligado,
-                  int capacidadePassageiros, int portasAcesso, int numeroParadas) {
-        super(modelo, ano, cor, ligado);
+                  int numeroRodas, int capacidadePassageiros, int portasAcesso, int numeroParadas) {
+        super(modelo, ano, cor, ligado, numeroRodas);
         this.capacidadePassageiros = capacidadePassageiros;
         this.portasAcesso = portasAcesso;
         this.numeroParadas = numeroParadas;
