@@ -1,11 +1,11 @@
-public class Carro extends Veiculo{
+public class Carro extends VeiculoTerrestre{
     int numeroPortas;
     String tipoTransmissao;
     float capacidadePortamalas;
 
-    public Carro(String modelo, int ano, String cor, boolean ligado, int numeroPortas,
-                 String tipoTransmissao, float capacidadePortamalas) {
-        super(modelo, ano, cor, ligado);
+    public Carro(String modelo, int ano, String cor, boolean ligado,
+                 int numeroRodas, int numeroPortas, String tipoTransmissao, float capacidadePortamalas) {
+        super(modelo, ano, cor, ligado, numeroRodas);
         this.numeroPortas = numeroPortas;
         this.tipoTransmissao = tipoTransmissao;
         this.capacidadePortamalas = capacidadePortamalas;
