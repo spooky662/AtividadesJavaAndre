@@ -1,11 +1,11 @@
-public class Bicicleta extends Veiculo{
+public class Bicicleta extends VeiculoTerrestre{
     int numeroMarchas;
     String tipoFreio;
     String estiloQuadro;
 
     public Bicicleta(String modelo, int ano, String cor, boolean ligado,
-                     int numeroMarchas, String tipoFreio, String estiloQuadro) {
-        super(modelo, ano, cor, ligado);
+                     int numeroRodas, int numeroMarchas, String tipoFreio, String estiloQuadro) {
+        super(modelo, ano, cor, ligado, numeroRodas);
         this.numeroMarchas = numeroMarchas;
         this.tipoFreio = tipoFreio;
         this.estiloQuadro = estiloQuadro;
